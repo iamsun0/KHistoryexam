@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>한능검 심화 문제은행</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="appbar">
+    <div class="appbar-inner">
+      <div class="brand">한능검 심화 <small>문제은행</small></div>
+      <nav class="nav">
+        <button data-route="home" class="active">홈</button>
+        <button data-route="exam">모의고사</button>
+        <button data-route="review">오답 유사문제</button>
+        <button data-route="stats">통계</button>
+      </nav>
+    </div>
+  </header>
+  <main id="app"></main>
+
+  <!-- 문제은행 데이터 (file:// 로도 동작하도록 전역 스크립트로 로드) -->
+  <script src="data/bank.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
